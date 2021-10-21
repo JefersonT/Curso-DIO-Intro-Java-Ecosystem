@@ -2,7 +2,7 @@ package com.dio;
 
 import com.dio.model.Order;
 
-public class Main {
+public class MyFirstProgram {
 
     public static void main(String[] args) {
 	// write your code here

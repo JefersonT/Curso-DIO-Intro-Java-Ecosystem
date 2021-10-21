@@ -11,3 +11,13 @@ public class MyFirstProgram {
         System.out.println("teste");
     }
 }
+
+// esse é um comentário de linha utilizando "//"
+
+/*
+Este é um comentário em Bloco
+Isso é feito utilizando essa chaves
+*/
+
+//Criação de Javadoc
+//javadoc -d javadoc/ -sourcepath src/ -subpackages com.dio

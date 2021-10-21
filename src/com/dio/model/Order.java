@@ -2,6 +2,12 @@ package com.dio.model;
 
 import java.math.BigDecimal; //importanto classes necessárias
 
+/**
+ * @author Jeferson Torres
+ * @version 1.0.0
+ * @see BigDecimal
+ * @since release 1.0.0
+ */
 public class Order {
 /*
     //BigDecimal--------------------------------------------------------
@@ -46,11 +52,24 @@ public class Order {
 
     private String[] itens;
 
+
+    /**
+     * Construtor da classe
+     * @param code          código do pedido
+     * @param totalValue    Valor total do pedido
+     */
     // métodos
     public Order (String code, int totalValue){
         this.code = code;
         this.totalValue = totalValue;
     }
+
+    /**
+     * Calcula o valor total do pedido de acordo com o valor do pedido
+     * Se o valor for maior que R$100,00 uma taxa sera cobrada.
+     * @return Valor total do pedido com a taxa
+     * @throws RuntimeException se o valor do pedido for negativo
+     */
     //Estrutura de switch-case
     public double calculateFee(){
         switch (totalValue) {

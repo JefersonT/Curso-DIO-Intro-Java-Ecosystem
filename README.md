@@ -1,7 +1,3 @@
-# Curso-DIO-Intro-Java-Ecosystem
-Curso de Introdução ao Ecossistema e Documentação Java
-
-
 # Introdução ao Ecossistema Java
 
 - **INTRODUÇÃO AO ECOSSISTEMA JAVA**
